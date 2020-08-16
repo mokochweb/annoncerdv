@@ -1,0 +1,127 @@
+/*Scrollbar style*/
+    /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/*End scrollbar style*/
+.post{
+    position:relative;
+    background: rgba(0,0,0, 0.05);
+    border-bottom: 1px solid #c3c3c3;
+    margin-bottom: 10px;
+    background-size: contain;
+}
+.message_board{
+    height: 80%;
+    display: none;
+    position: absolute;
+    width: 30%;
+    background: rgba(0,0,0,0.8);
+    z-index: 99;
+    border-bottom: 1px solid gold;
+    right: 0px;
+    right: 130px;
+}
+.outer_message{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.messages{
+    max-height: 304px;
+    overflow: auto;
+    min-height: 290px;
+    top: 0px;
+}
+.min_message{
+    font-size:12px
+}
+.message_board .message_text{
+        height: 37px;
+        width: 70%;
+}
+.field_icon{
+    float: right;
+    margin-top: -30px;
+    position: relative;
+    z-index: 2;
+    left: 18px;
+}
+#collapseSearch{
+    margin-bottom: 20px;
+}
+.msg{
+color: #fff;
+font-weight: bolder;
+clear: both;
+}
+.sender_user{
+        float: right;
+background-color: #5ebb5eed;
+border: 1px solid green;
+padding: 4px;
+border-radius: 8px;
+    }
+.receiver_user{
+        background-color: #0000006b;
+float: left;
+border: 1px solid #282828;
+padding: 4px;
+border-radius: 8px;
+margin-bottom: 3px;
+    }
+    .top_banner{
+        background-color: #ffffff;
+    }
+.banner_add{
+clear: both;
+display: inline-block;
+background: #ffffff;
+width: 90%;
+height: 39px;
+}
+.info_icon{
+    height: 16px;
+    float: right;
+    margin-top: -28px;
+    position: relative;
+    left: 37px;
+}
+.open-button {
+    background-color: gold;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+    z-index: 999;
+}
+.message_board{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    max-height: 400px;
+    z-index: 999;
+    bottom: 23px;
+    width: 280px;
+}
